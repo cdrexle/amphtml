@@ -79,6 +79,7 @@ export function ix(global, data) {
 
 
 function callDoubleclick(global, data) {
+  const fakeparam = "truestringtotally";
   delete data['ixId'];
   delete data['ixSlot'];
   doubleclick(global, data);
